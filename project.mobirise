@@ -970,69 +970,6 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2017 L. Graziose Plumming &amp; Heating."
-        },
-        {
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_params": {
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "1024x768",
-            "slides": [
-              {
-                "src": "@PROJECT_PATH@/assets/images/sink-2000x1125.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/sink-1600x1080.jpg",
-                "title": "title 1",
-                "text": "text 1",
-                "tooltip": "@PROJECT_PATH@/assets/images/sink-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/sink-2-2000x1125.jpg",
-                "active": true,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/sink-2-1600x1080.jpg",
-                "title": "title 2",
-                "text": "text 2",
-                "tooltip": "@PROJECT_PATH@/assets/images/sink-2-85x48.png"
-              },
-              {
-                "src": "@PROJECT_PATH@/assets/images/bathroom-2000x1125.jpg",
-                "active": false,
-                "link": false,
-                "linkUrl": "http://google.com",
-                "image": "@PROJECT_PATH@/assets/images/bathroom-1600x1080.jpg",
-                "title": "title 3",
-                "text": "text 3",
-                "tooltip": "@PROJECT_PATH@/assets/images/bathroom-85x48.png"
-              }
-            ],
-            "theme": "easy",
-            "bgColor": "#ffffff",
-            "animType": "kenburns",
-            "autoplay": true,
-            "paddingTop": "0",
-            "paddingBottom": 0,
-            "fullScreen": true,
-            "showBullets": false,
-            "timeout": 2,
-            "duration": 2,
-            "height": "1080",
-            "width": "1600",
-            "responsive": "3",
-            "showCaptions": false,
-            "captionsEffect": "slide",
-            "hideControls": false
-          },
-          "_anchor": "wowslider-s",
-          "articleLayout": false
         }
       ]
     }
