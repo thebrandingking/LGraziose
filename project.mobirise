@@ -1,0 +1,1040 @@
+{
+  "settings": {
+    "name": "L. Graziose Plumming & Heating",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#091b4b",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#092941",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 29,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-text": {
+              "color": "#fffffd"
+            }
+          },
+          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
+          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "4",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sink-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "overlayOpacity": "0.1",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sink-2-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/bathroom-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/bathroom-3-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE <br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/bathroom-2-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE <br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-2",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "features2",
+          "_styles": {
+            ".card": {
+              "background-color": "transparent",
+              "box-shadow": "none",
+              "border": "none"
+            },
+            ".card-img a": {
+              "border-width": "2px",
+              "line-height": "72px"
+            },
+            ".mbr-iconfont": {
+              "color": "#616161",
+              "border-color": "#616161"
+            },
+            ".heading-title": {
+              "color": "#fffffd"
+            },
+            ".heading-text": {
+              "color": "#fffffd"
+            },
+            ".card-title": {
+              "color": "#fffffd"
+            },
+            ".card-text": {
+              "color": "#fffffd"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "subtitle3": "Awesome",
+          "subtitle4": "Awesome",
+          "_name": "features4",
+          "_anchor": "features4-3",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "contentAlign": "center",
+            "iconsBgColor": "#616161",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/141001-rea-bathroom-alexander-2000x1316.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "columns": 3,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "title": "We specialize in the installation and service of plumbing and heating systems throughout the North Shore of Long Island.",
+          "text": "Our customer service is second-to-none. We have an quality team of individuals in our main office – <br>who can quickly reposnd in the needs of our customers.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#ffffff"
+            }
+          },
+          "title1": "Experience",
+          "text1": "In business for over thirty years, we are well known on the North Shore of Long Island for providing exceptional quality, value and service.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "tools",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#ffffff"
+            }
+          },
+          "title2": "Craftsmanship",
+          "text2": "Our commitment to craftsmanship can be found in everything we do – from fixing a simple leak to installing a complete heating system.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "money-2",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#ffffff"
+            }
+          },
+          "title3": "Up Front Pricing",
+          "text3": "L. Graziose Plumbing &amp; Heating does not charge by the hour... we charge by the job. Saving the customer money and time.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "subtitle3": "Awesome",
+          "subtitle4": "Awesome",
+          "subtitle5": "Awesome",
+          "subtitle6": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            ".mbr-iconfont": {
+              "background": "#0c2462",
+              "border-color": "#0c2462"
+            },
+            ".features": {
+              "background": "#d8dbe6"
+            },
+            ".features-title": {
+              "text-align": "center"
+            },
+            ".heading-title": {
+              "color": "#fffffd"
+            },
+            ".card-text": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "features3-4",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "featuresBg": "#d8dbe6",
+            "iconsBgColor": "#0c2462",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/ed9362deab44ad42b136b654470bbf1d-2000x1250.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#fffffd",
+            "showHeading": true,
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showFeaturesHeader": true,
+            "columns": 2,
+            "showFeaturesImages": true,
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "title": "Why We Are The Best At What We Do",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "header": "",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "volume-control-phone",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#fff"
+            }
+          },
+          "title1": "RESPONSIVE",
+          "text1": "We take your calls and dispatch our service team as soon as possible. &nbsp;<br>We have Preferred Service Plans which have priority service scheduling.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "thumbs-up",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#fff"
+            }
+          },
+          "title2": "FRIENDLY SERVICE",
+          "text2": "Our highly skilled and friendly service team are ready to be dispatched to help in any plumming or heating capacity. &nbsp;We greet you with a smile and watch you smile with our 'Up-Front-Pricing'",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "editor-attach-money",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#fff"
+            }
+          },
+          "title3": "PRICING",
+          "text3": "Our Up-Front Pricing is unique in the plumbing and heating industry. &nbsp;L. Graziose Plumbing and Heating does NOT charge by the hour we charge by the job. <br>We let you know up-front what each task will cost before we start.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "tools",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#fff"
+            }
+          },
+          "title4": "SERVICE PLANS",
+          "text4": "Silver, Gold &amp; Platinum are our 3 levels of Preferred Service Plans, which are designed to make your life simpler by providing discounted pricing and yearly inspections. We also provide priority service scheduling and after hour emergency service.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "cash",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#fff",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title5": "Host Anywhere",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error voluptatibus possimus nobis quos minima pariatur aperiam, sunt commodi incidunt nam iusto ipsa distinctio ipsam!",
+          "button5": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "unlock",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "color": "#fff",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title6": "Bootstrap 4",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut officia reiciendis id enim hic harum voluptatem repellat incidunt soluta cum quia facere sed, ea illo.",
+          "button6": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "Residential Services",
+          "roundBlockText": "",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/plummer-500x500.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Just some of the things we install or repair:",
+          "text": "<li>Bathtub &amp; Shower Drains, Faucets, Shower Heads, Bathroom Sink Faucets/Drains, Garbage Disposals, Hot Water Dispensers, Lavatories, Toilets, Shower Heads Sewer &amp; Drain Cleaning, Kitchen Sinks</li><br><li>Tankless Water Heaters, Kitchen Sink Faucets/Drain, Washing Machine, Water Filtration, Air Cleaners,  Gas Log Sets, Pool Heaters, Radiant Heat</li><br><li>Baseboard Heat, Boiler, Circulators, Gas Controls, Heating Systems, Humidifiers, Oil to Gas, Pool Heaters, Radiant Heat Relays, Thermostats , Tankless Water Heaters, Ice Maker Lines, Laundry Sinks, Oil to Gas Conversions,&nbsp;</li>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Get free trial</a>",
+          "_customHTML": "<section class=\"mbr-section msg-box1\" style=\"background-color: rgb(255, 255, 255); padding-top: 50px; padding-bottom: 25px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n          <h1 class=\"mbr-section-title display-2 text-center mbr-editable-content\" code-editable-id=\"33\">Residential Services</h1> \n        </div>\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-6\">\n                  <div class=\"blank\">\n                    <div class=\"wraper\">\n                      <p class=\"round-text text-1 text-center mbr-editable-content\" code-editable-id=\"34\"></p>\n                    </div>\n                  </div>\n                  <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/plummer-500x500.jpg\"></div>\n              </div>\n\n              \n\n              <!-- Inverse -->\n              \n              <div class=\"mbr-table-cell col-md-6 text-xs-center text-md-left\">\n                  <div class=\"span-title text-md-left text-xs-center\">\n                      <span class=\"mbr-section-subtitle sub-2 pad-r mbr-editable-content\" code-editable-id=\"35\">Just some of the things we install or repair:</span>             \n                  </div>             \n                  <div class=\"list\">\n                    <ul class=\"text-left mbr-editable-content\" code-editable-id=\"36\"><li>Bathtub &amp; Shower Drains, Faucets, Shower Heads, Bathroom Sink Faucets/Drains, Garbage Disposals, Hot Water Dispensers, Lavatories, Toilets, Shower Heads Sewer &amp; Drain Cleaning, Kitchen Sinks</li><br><li>Tankless Water Heaters, Kitchen Sink Faucets/Drain, Washing Machine, Water Filtration, Air Cleaners,  Gas Log Sets, Pool Heaters, Radiant Heat</li><br><li>Baseboard Heat, Boiler, Circulators, Gas Controls, Heating Systems, Humidifiers, Oil to Gas, Pool Heaters, Radiant Heat Relays, Thermostats , Tankless Water Heaters, Ice Maker Lines, Laundry Sinks, Oil to Gas Conversions,&nbsp;</li></ul>\n                  </div>\n\n                  \n              </div>\n\n\n              \n\n            </div>\n        \n    \n\n</div></div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "H1 {\n\tcolor: #333333;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "msg-box1-g"
+        },
+        {
+          "_styles": {
+            "H1": {
+              "color": "#333333"
+            },
+            ".round-text": {
+              "font-size": "30px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-l",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "inverse": false,
+            "showSubTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Commercial Services",
+          "roundBlockText": "<span style=\"line-height: 1.5em;\">Our services are rated #1 !</span><br>",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/plummer-3-1619x1125.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "A sampling of what our top rated team can do:",
+          "text": "<li>Drainage Piping, Electronic Pipe Tracing/Locating, Faucets, Flushometers, Fixtures, Frozen Pipes Thawed, Garbage Disposals, Gas Connectors, Gas Piping, Hot Water Dispensers, Hose Faucets, Lavatories, Plumbing Systems, Pumps</li><br><li>Hydro Air, Gas Heating, Intermittent Ignitions, Low Water Cut Offs, Motors, Powerpile Generators, Relays, Relief Valves, Sewer Mains, Sinks, Smoke Testing, Tailpieces, Traps, Toilets, Toilet Fill Valves, Toilet Flush Valves, Toilet Resealing, Toilet Tank Levers, TV In-Line Pipe Inspections</li><br><li>Valves,  Water Filtration, Water Mains, Water Piping, Water Pressure Reducing Valves, Air Cleaners, Baseboard Heat, Boiler Drains, Circulators, Diaphragm Tanks, Fan/Limit Controls, Gas Controls, Heating Checkups, Heating Systems, High Efficiency Equipment, High Limit Controls, Hot Water Boilers, Humidifiers</li><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get free trial</a>"
+        },
+        {
+          "_styles": {
+            ".count": {
+              "color": "#0e3f65"
+            }
+          },
+          "title4": "Videos",
+          "subtitle1": "subtitle",
+          "subtitle2": "subtitle",
+          "subtitle3": "subtitle",
+          "subtitle4": "subtitle",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-9",
+          "_params": {
+            "countersColor": "#0e3f65",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#94a5d0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#fff",
+            "showTitles": true
+          },
+          "number1": "44",
+          "title1": "Years In Business",
+          "number2": "1000",
+          "title2": "Thousands of Satisfied Customers",
+          "number3": "24",
+          "title3": "Hrs A Day On Call&nbsp;"
+        },
+        {
+          "_styles": {
+            ".plan-wrap.default .plan-title": {
+              "background": "#dbae54"
+            },
+            ".plan-wrap.favorite .plan-title": {
+              "background": "#15244a"
+            },
+            ".normal.price": {
+              "font-size": "36px"
+            },
+            ".plan-text": {
+              "font-size": "19px"
+            }
+          },
+          "text19": "Lorem ipsa, nobis.",
+          "text29": "Lorem ipsa, nobis.",
+          "text39": "Lorem ipsa, nobis.",
+          "text47": "Loipsa. consectetur.",
+          "text49": "Lorem ipsa, nobis.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-5",
+          "_params": {
+            "defaultColor": "#dbae54",
+            "favoriteColor": "#15244a",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "default",
+            "rows": "4",
+            "showButtons": true,
+            "secondType": "favorite",
+            "thirdType": "default",
+            "fourthType": "hidden"
+          },
+          "title": "Preferred Service Plans",
+          "subtitle": "All of the prices below are shown as Annual service plans. &nbsp;Please add N.Y. State sales tax to the price shown. &nbsp;<br>*Benefits as per Preferred Service Plan terms &amp; conditions.<br>**Inspections for Residential PSP ONLY<br>***Renewal fee only applicable for renewed continuous uninterrupted Preferred Service Plan membership<br>For full details please review our Terms &amp; Conditions<br>",
+          "title1": "SILVER",
+          "text111": "$125",
+          "currency": "",
+          "text112": "<br><br>",
+          "text12": "15 % DISCOUNT ON SERVICES",
+          "text13": "PRIORITY SERVICE SCHEDULING",
+          "text14": "AFTER HOUR EMERGENCY SERVICE*",
+          "text15": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text16": "Nesciunt! ipsum dolor.",
+          "text17": "Loipsa. consectetur.",
+          "text18": "Lorensectetur, omnis.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-info-outline btn-info\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">PURCHASE</a>",
+          "title2": "GOLD",
+          "text211": "<span class=\"price\">$399</span>",
+          "text212": "",
+          "text22": "<br>15 % DISCOUNT ON SERVICES",
+          "text23": "PRIORITY SERVICE SCHEDULING",
+          "text24": "AFTER HOUR EMERGENCY SERVICE*<br><br>-ONE HEATING UNIT INSPECTION**<br><span style=\"line-height: 1em;\">-ONE WATER HEATER INSPECTION**</span><br>",
+          "text25": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text26": "Nesciunt! ipsum dolor.",
+          "text27": "Loipsa. consectetur.",
+          "text28": "Lorensectetur, omnis.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-info-outline btn-info\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">PURCHASE</a>",
+          "title3": "PLATINUM",
+          "text311": "<span class=\"price\">$599</span>",
+          "text312": "",
+          "text32": "<br>15 % DISCOUNT ON SERVICES",
+          "text33": "PRIORITY SERVICE SCHEDULING",
+          "text34": "AFTER HOUR EMERGENCY SERVICE*<br><br>-ONE HEATING UNIT INSPECTION**<br>-ONE WATER HEATER INSPECTION**<br>-ONE WATER PRESSURE INSPECTION**<br>-ONE PLUMBING INSPECTION**<br>-ONE ANNUAL BACK FLOW PREVENTION TEST**<br>",
+          "text35": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text36": "Nesciunt! ipsum dolor.",
+          "text37": "Loipsa. consectetur.",
+          "text38": "Lorensectetur, omnis.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-info-outline btn-info\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">PURCHASE</a>",
+          "title4": "Ultimate",
+          "text411": "<span class=\"price\">49</span>",
+          "text412": "<br>per Month",
+          "text42": "8GB Storage",
+          "text43": "4 Users",
+          "text44": "15 GB bandwidth",
+          "text45": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "text46": "Nesciunt! ipsum dolor.",
+          "text48": "Lorensectetur, omnis.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-danger-outline\">Buy now!</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".card-footer > div": {
+              "color": "#fffffd"
+            },
+            ".card-block P": {
+              "color": "#fffffd"
+            },
+            ".mbr-section-title": {
+              "color": "#fffffd"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "arrowColor": "#94a5d0",
+            "timeout": 5,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/pretty-girl-wallpaper-with-nice-hair-desktop-wallpapers-and-free-stock-160x120.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Stacy Cooper",
+                "authorBio": "Syosset",
+                "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/couple-happy-139x160.png",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Mike &amp; Tracy Ellis",
+                "authorBio": "East Hills",
+                "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.\"</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/20141119125733-160x106.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Roger &amp; Shanti Smith",
+                "authorBio": "Locust Valley",
+                "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.”</p>"
+              }
+            ],
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
+            "bgColor": "#030d27",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showBullets": true
+          },
+          "_anchor": "testimonials1-b",
+          "title": "What Our Customers Say",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "H1": {
+              "color": "#fffffd",
+              "font-size": "48px"
+            },
+            "P": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "accordion1-8",
+          "_params": {
+            "collapseAll": true,
+            "tabs": "4",
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/ed9362deab44ad42b136b654470bbf1d-2000x1250.jpg",
+            "bgColor": "#031031",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#000000",
+            "showTitle": true
+          },
+          "title": "FAQ",
+          "title1": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why chose us ?</a>",
+          "text1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title2": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Can I set up a specific appointment ?</a>",
+          "text2": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title3": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Why do you do up-front pricing ?</a>",
+          "text3": "<p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p>",
+          "title4": "<a role=\"button\" class=\"collapsed text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Is it really better to have a service plan ?&nbsp;</a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "H3": {
+              "text-align": "left",
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "content8-a",
+          "_params": {
+            "imageSize": "29",
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/l-graziose-logo-and-phone-number-1400x973.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "About Us",
+          "text": "L. Graziose Plumbing &amp; Heating, Inc., was founded in 1973 by Larry and Marie Graziose. They envisioned the need for a reliable family operated plumbing and heating business to service our clientele by delivering excellence through courtesy, integrity, knowledge and professionalism. That tradition and mission, continues today with brothers Robert and Michael.<br><span style=\"font-size: 1rem; line-height: 1.7em;\"><br></span><span style=\"font-size: 1rem; line-height: 1.7em;\">Your experience with us has been designed to be hassle-free and enjoyable. We provide top quality solutions for your plumbing and heating needs – whatever the scale. Our highly trained personnel are well versed in working in the finer home environment – careful consideration is given to cleanliness, both on the jobsite and in our vehicles.</span><br><span style=\"font-size: 1rem; line-height: 1.7em;\"><br></span><span style=\"font-size: 1rem; line-height: 1.7em;\">L. Graziose Plumbing &amp; Heating specializes in the installation, service, repair and replacement of plumbing and heating systems, in all phases, for your home and business.</span><br>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "share1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "share1-c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgColor": "#ababab",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#fff",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Follow Us !"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer3",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "footer3-d",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#fff"
+          },
+          "title1": "447 Forest Avenue<br>Locust Valley, NY 11560",
+          "text2": "516-671-7254",
+          "title2": "Email",
+          "text1": "gph@lgrazioseplumbing.com",
+          "title3": "Need help?",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Call us</a>"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-e",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 L. Graziose Plumming &amp; Heating."
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x768",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/sink-2000x1125.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/sink-1600x1080.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/sink-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/sink-2-2000x1125.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/sink-2-1600x1080.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/sink-2-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/bathroom-2000x1125.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/bathroom-1600x1080.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/bathroom-85x48.png"
+              }
+            ],
+            "theme": "easy",
+            "bgColor": "#ffffff",
+            "animType": "kenburns",
+            "autoplay": true,
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "1080",
+            "width": "1600",
+            "responsive": "3",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-s",
+          "articleLayout": false
+        }
+      ]
+    }
+  }
+}
