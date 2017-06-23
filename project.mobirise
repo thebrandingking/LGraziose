@@ -826,7 +826,7 @@
             "showTitle": true
           },
           "title": "FAQ",
-          "title1": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why chose us ?</a>",
+          "title1": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why choose us ?</a>",
           "text1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "title2": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Can I set up a specific appointment ?</a>",
           "text2": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
