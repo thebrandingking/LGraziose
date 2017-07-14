@@ -18,7 +18,8 @@
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
-      }
+      },
+      "additionalSetColors": []
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 29,
@@ -729,7 +730,7 @@
             "overlayOpacity": 0.5,
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/pretty-girl-wallpaper-with-nice-hair-desktop-wallpapers-and-free-stock-160x120.jpg",
@@ -748,7 +749,7 @@
                 "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.”</p>"
               },
               {
-                "active": false,
+                "active": true,
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/couple-happy-139x160.png",
