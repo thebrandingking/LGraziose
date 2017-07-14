@@ -22,7 +22,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 29,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.0.12",
     "favicon": "",
     "noImageResize": ""
   },
@@ -54,8 +54,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": "4",
             "slides": [
               {
@@ -133,10 +136,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-2",
           "articleLayout": false
@@ -182,29 +182,29 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "contentAlign": "center",
-            "iconsBgColor": "#616161",
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/141001-rea-bathroom-alexander-2000x1316.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#000000",
             "showHeading": true,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
+            "contentAlign": "center",
             "columns": 3,
             "showFeaturesImages": true,
+            "iconsBgColor": "#616161",
             "showFeaturesTitles": true,
             "showFeaturesTexts": true,
-            "showFeaturesButtons": false
+            "showFeaturesButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/141001-rea-bathroom-alexander-2000x1316.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.5"
           },
           "title": "We specialize in the installation and service of plumbing and heating systems throughout the North Shore of Long Island.",
           "text": "Our customer service is second-to-none. We have an quality team of individuals in our main office – <br>who can quickly reposnd in the needs of our customers.",
@@ -301,31 +301,31 @@
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "3",
-            "featuresBg": "#d8dbe6",
-            "iconsBgColor": "#0c2462",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ed9362deab44ad42b136b654470bbf1d-2000x1250.jpg",
-            "bgColor": "#fffffd",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": "0.2",
-            "overlayColor": "#fffffd",
             "showHeading": true,
-            "contentAlign": "center",
             "showTitle": true,
             "showText": false,
             "showButtons": false,
-            "showFeaturesHeader": true,
+            "contentAlign": "center",
             "columns": 2,
+            "featuresBg": "#d8dbe6",
+            "showFeaturesHeader": true,
             "showFeaturesImages": true,
+            "iconsBgColor": "#0c2462",
             "showFeaturesTitles": true,
             "showFeaturesTexts": true,
-            "showFeaturesButtons": false
+            "showFeaturesButtons": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/ed9362deab44ad42b136b654470bbf1d-2000x1250.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": "0.2"
           },
           "title": "Why We Are The Best At What We Do",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
@@ -475,7 +475,7 @@
           "title2": "Just some of the things we install or repair:",
           "text": "<li>Bathtub &amp; Shower Drains, Faucets, Shower Heads, Bathroom Sink Faucets/Drains, Garbage Disposals, Hot Water Dispensers, Lavatories, Toilets, Shower Heads Sewer &amp; Drain Cleaning, Kitchen Sinks</li><br><li>Tankless Water Heaters, Kitchen Sink Faucets/Drain, Washing Machine, Water Filtration, Air Cleaners,  Gas Log Sets, Pool Heaters, Radiant Heat</li><br><li>Baseboard Heat, Boiler, Circulators, Gas Controls, Heating Systems, Humidifiers, Oil to Gas, Pool Heaters, Radiant Heat Relays, Thermostats , Tankless Water Heaters, Ice Maker Lines, Laundry Sinks, Oil to Gas Conversions,&nbsp;</li>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Get free trial</a>",
-          "_customHTML": "<section class=\"mbr-section msg-box1\" style=\"background-color: rgb(255, 255, 255); padding-top: 50px; padding-bottom: 25px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n          <h1 class=\"mbr-section-title display-2 text-center mbr-editable-content\" code-editable-id=\"33\">Residential Services</h1> \n        </div>\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-6\">\n                  <div class=\"blank\">\n                    <div class=\"wraper\">\n                      <p class=\"round-text text-1 text-center mbr-editable-content\" code-editable-id=\"34\"></p>\n                    </div>\n                  </div>\n                  <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/plummer-500x500.jpg\"></div>\n              </div>\n\n              \n\n              <!-- Inverse -->\n              \n              <div class=\"mbr-table-cell col-md-6 text-xs-center text-md-left\">\n                  <div class=\"span-title text-md-left text-xs-center\">\n                      <span class=\"mbr-section-subtitle sub-2 pad-r mbr-editable-content\" code-editable-id=\"35\">Just some of the things we install or repair:</span>             \n                  </div>             \n                  <div class=\"list\">\n                    <ul class=\"text-left mbr-editable-content\" code-editable-id=\"36\"><li>Bathtub &amp; Shower Drains, Faucets, Shower Heads, Bathroom Sink Faucets/Drains, Garbage Disposals, Hot Water Dispensers, Lavatories, Toilets, Shower Heads Sewer &amp; Drain Cleaning, Kitchen Sinks</li><br><li>Tankless Water Heaters, Kitchen Sink Faucets/Drain, Washing Machine, Water Filtration, Air Cleaners,  Gas Log Sets, Pool Heaters, Radiant Heat</li><br><li>Baseboard Heat, Boiler, Circulators, Gas Controls, Heating Systems, Humidifiers, Oil to Gas, Pool Heaters, Radiant Heat Relays, Thermostats , Tankless Water Heaters, Ice Maker Lines, Laundry Sinks, Oil to Gas Conversions,&nbsp;</li></ul>\n                  </div>\n\n                  \n              </div>\n\n\n              \n\n            </div>\n        \n    \n\n</div></div></section>",
+          "_customHTML": "<section class=\"mbr-section msg-box1\" style=\"background-color: rgb(255, 255, 255); padding-top: 50px; padding-bottom: 25px;\">\n\n    \n    <div class=\"container\">\n        <div class=\"row\">\n          <h1 class=\"mbr-section-title display-2 text-center mbr-editable-content\" code-editable-id=\"13\">Residential Services</h1> \n        </div>\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-6\">\n                  <div class=\"blank\">\n                    <div class=\"wraper\">\n                      <p class=\"round-text text-1 text-center mbr-editable-content\" code-editable-id=\"14\"></p>\n                    </div>\n                  </div>\n                  <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/plummer-500x500.jpg\"></div>\n              </div>\n\n              \n\n              <!-- Inverse -->\n              \n              <div class=\"mbr-table-cell col-md-6 text-xs-center text-md-left\">\n                  <div class=\"span-title text-md-left text-xs-center\">\n                      <span class=\"mbr-section-subtitle sub-2 pad-r mbr-editable-content\" code-editable-id=\"15\">Just some of the things we install or repair:</span>             \n                  </div>             \n                  <div class=\"list\">\n                    <ul class=\"text-left mbr-editable-content\" code-editable-id=\"16\"><li>Bathtub &amp; Shower Drains, Faucets, Shower Heads, Bathroom Sink Faucets/Drains, Garbage Disposals, Hot Water Dispensers, Lavatories, Toilets, Shower Heads Sewer &amp; Drain Cleaning, Kitchen Sinks</li><br><li>Tankless Water Heaters, Kitchen Sink Faucets/Drain, Washing Machine, Water Filtration, Air Cleaners,  Gas Log Sets, Pool Heaters, Radiant Heat</li><br><li>Baseboard Heat, Boiler, Circulators, Gas Controls, Heating Systems, Humidifiers, Oil to Gas, Pool Heaters, Radiant Heat Relays, Thermostats , Tankless Water Heaters, Ice Maker Lines, Laundry Sinks, Oil to Gas Conversions,&nbsp;</li></ul>\n                  </div>\n\n                  \n              </div>\n\n\n              \n\n            </div>\n        \n    \n\n</div></div></section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "H1 {\n\tcolor: #333333;\n}\n",
@@ -497,25 +497,25 @@
           "_name": "msg-box1",
           "_anchor": "msg-box1-l",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "paddingTop": "1",
             "paddingBottom": "2",
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_background/msg-box1.jpg",
-            "bgColor": "#ffffff",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.1,
             "overlayColor": "#000",
-            "showTitle": true,
-            "inverse": false,
-            "showSubTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.1
           },
           "title": "Commercial Services",
           "roundBlockText": "<span style=\"line-height: 1.5em;\">Our services are rated #1 !</span><br>",
@@ -565,22 +565,22 @@
           "_anchor": "counters1-9",
           "_params": {
             "countersColor": "#0e3f65",
+            "showTitles": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "containerColor1": "#f7f7f7",
-            "containerColor2": "#94a5d0",
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/counters/01.jpg",
+            "parallax": false,
             "bgColorRadio": true,
+            "containerColor1": "#f7f7f7",
+            "containerColor2": "#94a5d0",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.75,
             "overlayColor": "#fff",
-            "showTitles": true
+            "overlayOpacity": 0.75
           },
           "number1": "44",
           "title1": "Years In Business",
@@ -615,30 +615,30 @@
           "_name": "pricing-table2",
           "_anchor": "pricing-table2-5",
           "_params": {
-            "defaultColor": "#dbae54",
-            "favoriteColor": "#15244a",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#fffffd",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
             "showTitle": true,
             "showSubtitle": true,
             "firstType": "default",
-            "rows": "4",
-            "showButtons": true,
             "secondType": "favorite",
             "thirdType": "default",
-            "fourthType": "hidden"
+            "fourthType": "hidden",
+            "defaultColor": "#dbae54",
+            "favoriteColor": "#15244a",
+            "rows": "4",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "showButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "Preferred Service Plans",
           "subtitle": "All of the prices below are shown as Annual service plans. &nbsp;Please add N.Y. State sales tax to the price shown. &nbsp;<br>*Benefits as per Preferred Service Plan terms &amp; conditions.<br>**Inspections for Residential PSP ONLY<br>***Renewal fee only applicable for renewed continuous uninterrupted Preferred Service Plan membership<br>For full details please review our Terms &amp; Conditions<br>",
@@ -704,11 +704,29 @@
             }
           },
           "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "autoplay": true,
             "arrowColor": "#94a5d0",
             "timeout": 5,
             "paddingTop": "2",
             "paddingBottom": "1",
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#030d27",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
             "slides": [
               {
                 "active": true,
@@ -767,25 +785,7 @@
                 "authorBio": "Locust Valley",
                 "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.”</p>"
               }
-            ],
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
-            "bgColor": "#030d27",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showSubtitle": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "testimonials1-b",
           "title": "What Our Customers Say",
@@ -807,32 +807,32 @@
           },
           "_anchor": "accordion1-8",
           "_params": {
+            "showTitle": true,
             "collapseAll": true,
             "tabs": "4",
             "paddingTop": "1",
             "paddingBottom": 2,
-            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/ed9362deab44ad42b136b654470bbf1d-2000x1250.jpg",
-            "bgColor": "#031031",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#031031",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.2",
             "overlayColor": "#000000",
-            "showTitle": true
+            "overlayOpacity": "0.2"
           },
           "title": "FAQ",
-          "title1": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why choose us ?</a>",
+          "title1": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why choose us ?</a>",
           "text1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "title2": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Can I set up a specific appointment ?</a>",
           "text2": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "title3": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Why do you do up-front pricing ?</a>",
+          "title3": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Why do you do up-front pricing ?</a>",
           "text3": "<p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p>",
-          "title4": "<a role=\"button\" class=\"collapsed text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Is it really better to have a service plan ?&nbsp;</a>",
+          "title4": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Is it really better to have a service plan ?&nbsp;</a>",
           "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
           "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
@@ -855,15 +855,15 @@
           },
           "_anchor": "content8-a",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": "29",
             "paddingTop": "4",
             "paddingBottom": "4",
-            "bgColor": "#ffffff",
             "bgColorRadio": true,
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "bgColor": "#ffffff"
           },
           "media": {
             "image": {
@@ -901,13 +901,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
-            "bgColor": "#ababab",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#ababab",
             "overlay": false,
-            "overlayOpacity": 0.9,
             "overlayColor": "#fff",
+            "overlayOpacity": 0.9,
             "facebook": true,
             "twitter": true,
             "google": true,
@@ -931,13 +931,13 @@
             "paddingTop": 1,
             "paddingBottom": 1,
             "bgImageRadio": false,
-            "parallax": false,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#fff",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#fff"
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9
           },
           "title1": "447 Forest Avenue<br>Locust Valley, NY 11560",
           "text2": "516-671-7254",
@@ -961,13 +961,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 L. Graziose Plumming &amp; Heating."
         }
