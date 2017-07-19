@@ -1,5 +1,8 @@
+@import url(../../../https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i);
+
+
 
 
 
@@ -512,12 +515,12 @@ a:hover {
 .hamburger-icon:after {
   background-color: #091b4b;
 }
-#slider-2 .mbr-section-title,
-#slider-2 .mbr-section-text {
-  color: #fff;
+#header3-16 H3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
 }
-#slider-2 .mbr-section-text {
-  color: #fffffd;
+#header3-16 P {
+  font-size: 22px;
 }
 #features4-3 .card {
   background-color: transparent;
@@ -534,14 +537,23 @@ a:hover {
 }
 #features4-3 .heading-title {
   color: #fffffd;
+  font-size: 36px;
 }
 #features4-3 .heading-text {
   color: #fffffd;
+  font-size: 18px;
 }
 #features4-3 .card-title {
   color: #fffffd;
 }
 #features4-3 .card-text {
+  color: #fffffd;
+}
+#slider-2 .mbr-section-title,
+#slider-2 .mbr-section-text {
+  color: #fff;
+}
+#slider-2 .mbr-section-text {
   color: #fffffd;
 }
 #features3-4 .mbr-iconfont {
@@ -593,6 +605,9 @@ a:hover {
 #testimonials1-b .mbr-section-title {
   color: #fffffd;
 }
+#header3-x P {
+  font-size: 20px;
+}
 #accordion1-8 H1 {
   color: #fffffd;
   font-size: 48px;
@@ -611,8 +626,73 @@ a:hover {
   color: #fffffd;
 }
 #footer3-d .mbr-section-title {
-  font-size: 25px;
+  font-size: 20px;
 }
 #footer4-e p {
   color: #000;
+}
+#menu2-15 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu2-15 .navbar-toggler {
+  color: #1e305f;
+}
+#menu2-15 .close-icon::before,
+#menu2-15 .close-icon::after {
+  background-color: #1e305f;
+}
+#menu2-15 .link,
+#menu2-15 .dropdown-item {
+  color: #1e305f;
+  font-family: 'Raleway', sans-serif;
+}
+#menu2-15 .link {
+  font-size: 1.1rem;
+}
+#menu2-15 .dropdown-item,
+#menu2-15 .nav-dropdown-sm .link {
+  font-size: 1.191rem;
+}
+#menu2-15 .link:hover,
+#menu2-15 .link:focus {
+  color: #091b4b;
+}
+#menu2-15 .dropdown-item:hover::before,
+#menu2-15 .dropdown-item:focus::before {
+  background: #091b4b;
+}
+#menu2-15 .dropdown-item:hover,
+#menu2-15 .dropdown-item:focus {
+  color: #1e305f;
+}
+#menu2-15 .link[aria-expanded="true"],
+#menu2-15 .dropdown-menu {
+  background: #ffffff;
+}
+#menu2-15 .nav-dropdown-sm .link:focus,
+#menu2-15 .nav-dropdown-sm .link:hover,
+#menu2-15 .nav-dropdown-sm .dropdown-item:focus,
+#menu2-15 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu2-15 .navbar,
+#menu2-15 .nav-dropdown-sm,
+#menu2-15 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu2-15 .nav-dropdown-sm .dropdown-menu {
+  background: #fff;
+}
+#menu2-15 .bg-color.transparent .link {
+  color: #1e305f;
+  transition: none;
+}
+#menu2-15 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu2-15 .bg-color.transparent.opened .link:hover,
+#menu2-15 .bg-color.transparent.opened .link:focus {
+  color: #091b4b;
+}
+#menu2-15 .link[aria-expanded="true"],
+#menu2-15 .dropdown-item[aria-expanded="true"] {
+  color: #091b4b!important;
 }

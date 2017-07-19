@@ -19,10 +19,15 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#132248",
+        "#1e305f",
+        "#181f31",
+        "#151b29"
+      ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 29,
+    "uniqCompNum": 43,
     "versionPublish": "4.0.12",
     "favicon": "",
     "noImageResize": ""
@@ -39,108 +44,63 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-text": {
-              "color": "#fff"
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photodune-527603-plumbing-in-terms-of-flat-m-1732x1155.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            ".mbr-section-text": {
-              "color": "#fffffd"
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/plummer-1400x1063.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             }
           },
-          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
-          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
+          "title": "L. Graziose Plumbing &amp; Heating",
+          "text": "We're a family business and treat our customers like family.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": "4",
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sink-2000x1125.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "overlay": false,
-                "overlayOpacity": "0.1",
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
-                "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sink-2-2000x1125.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
-                "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/bathroom-2000x1125.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
-                "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/bathroom-3-2000x1125.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "overlay": true,
-                "overlayOpacity": "0.2",
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "L. GRAZIOSE <br>PLUMMING &amp; HEATING",
-                "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/bathroom-2-2000x1125.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "overlay": true,
-                "overlayOpacity": "0.3",
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "L. GRAZIOSE <br>PLUMMING &amp; HEATING",
-                "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              }
-            ]
-          },
-          "_anchor": "slider-2",
-          "articleLayout": false
+          "_name": "header3",
+          "_anchor": "header3-16",
+          "_styles": {
+            "H3": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "80px"
+            },
+            "P": {
+              "font-size": "22px"
+            }
+          }
         },
         {
           "_inherit": "features2",
@@ -159,10 +119,12 @@
               "border-color": "#616161"
             },
             ".heading-title": {
-              "color": "#fffffd"
+              "color": "#fffffd",
+              "font-size": "36px"
             },
             ".heading-text": {
-              "color": "#fffffd"
+              "color": "#fffffd",
+              "font-size": "18px"
             },
             ".card-title": {
               "color": "#fffffd"
@@ -181,8 +143,8 @@
           "_name": "features4",
           "_anchor": "features4-3",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "showHeading": true,
             "showTitle": true,
             "showText": true,
@@ -268,6 +230,125 @@
           "title4": "What is Mobirise",
           "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
           "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-text": {
+              "color": "#fffffd"
+            }
+          },
+          "arrowleft": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-left.png\">",
+          "arrowright": "<img src=\"@THEME_PATH@/components/_images/slider/arrow-right.png\">",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#151b29",
+            "timeout": "6",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/l-graziose-logo-and-phone-number-496x345.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "overlayOpacity": "0.1",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/sink-2-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/bathroom-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "overlayOpacity": "0.2",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/bathroom-3-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "overlayOpacity": "0",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE <br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/bathroom-1-1920x1080.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": true,
+                "overlayOpacity": "0.2",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE <br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/kitchen-2-1920x1080.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "overlay": false,
+                "overlayOpacity": "0.1",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ]
+          },
+          "_anchor": "slider-2",
+          "articleLayout": false
         },
         {
           "subtitle1": "Awesome",
@@ -714,7 +795,7 @@
             "arrowColor": "#94a5d0",
             "timeout": 5,
             "paddingTop": "2",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "showBullets": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/_baclground/msg-box3.jpg",
@@ -746,7 +827,7 @@
                 },
                 "authorName": "Stacy Cooper",
                 "authorBio": "Syosset",
-                "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.”</p>"
+                "text": "<p>“I can not say enough about how nice Nestor was and how thorough he was with my gas leak in the garage. Please pass on my sentiments to the owner !”</p>"
               },
               {
                 "active": true,
@@ -765,7 +846,7 @@
                 },
                 "authorName": "Mike &amp; Tracy Ellis",
                 "authorBio": "East Hills",
-                "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.\"</p>"
+                "text": "<p>“The service &nbsp;you performed was outstanding. The service men were very clean and kep everything in order. I've used your service before and was just as happy with the current service as I was with the first. \"</p>"
               },
               {
                 "active": false,
@@ -784,13 +865,67 @@
                 },
                 "authorName": "Roger &amp; Shanti Smith",
                 "authorBio": "Locust Valley",
-                "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.”</p>"
+                "text": "<p>“It was a pleasure seaking with you. Im writing to let you know what a great job Nestor did for us. He was thourogh, professional, courteous and neat. Everythign one could ask for when looking for a plumber. He was able to diagnose and repair a problem with our jacuzzi tub, which hadnt worked for years. I would highly recommend him as wekk as your company. Many thanks.”</p>"
               }
             ]
           },
           "_anchor": "testimonials1-b",
           "title": "What Our Customers Say",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": 58,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/all-pro-plumbing-1600x853.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lgph-founder-pic1995-612x612.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "We love what we do...",
+          "text": "We love what we do and it shows in our work. We're a family business and treat our customers like family.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-x",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_tags": [
@@ -812,7 +947,7 @@
             "collapseAll": true,
             "tabs": "4",
             "paddingTop": "1",
-            "paddingBottom": 2,
+            "paddingBottom": "3",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/ed9362deab44ad42b136b654470bbf1d-2000x1250.jpg",
             "parallax": false,
@@ -822,19 +957,19 @@
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#000000",
             "overlayOpacity": "0.2"
           },
           "title": "FAQ",
           "title1": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseOneaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Why choose us ?</a>",
-          "text1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
-          "title2": "<a role=\"button\" class=\"text-white collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Can I set up a specific appointment ?</a>",
-          "text2": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text1": "<p>L. Graziose Plumbing &amp; Heating has been in business for over 40 years. We have seen it all and done it all in plumbing and heating. Our highly trained staff knows the best approach to solving issues in your home or business. The management team can help design the proper layout and organization for all your plumbing and heating needs.</p>",
+          "title2": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseTwoaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Can I set up a specific appointment ?</a>",
+          "text2": "<p>Our staff can work out the best times to set up an appointment. With out Preferred Sevice Plans- we offer priority scheduling and after hour emergency service.</p>",
           "title3": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseThreeaccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Why do you do up-front pricing ?</a>",
-          "text3": "<p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p>",
+          "text3": "<p>We found that our up-front pricing allows both parties to feel comfortable with the time being spent. Whenther it takes us an hour or 4 hours- the job we bill done correctly and the customer will feel good knowing the cost up front.</p>",
           "title4": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion1-8-init\" data-core=\"\" href=\"#collapseFouraccordion1-8\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Is it really better to have a service plan ?&nbsp;</a>",
-          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text4": "<p>Our service plans are to help the customer with their overall plumbing and heating requests. By having a plan in place- there is a savings given back to the customer as well as having some added benefits only available to plan customers.</p>",
           "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
           "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
@@ -922,11 +1057,6 @@
             "Theme"
           ],
           "_name": "footer3",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "25px"
-            }
-          },
           "_anchor": "footer3-d",
           "_params": {
             "paddingTop": 1,
@@ -936,7 +1066,7 @@
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#fff",
             "overlayOpacity": 0.9
           },
@@ -944,8 +1074,13 @@
           "text2": "516-671-7254",
           "title2": "Email",
           "text1": "gph@lgrazioseplumbing.com",
-          "title3": "Need help?",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://thebrandingking.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Call us</a>"
+          "title3": "PHONE",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://thebrandingking.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Call us</a>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding footer3\" data-rv-view=\"54\" style=\"background-color: rgb(255, 255, 255); padding-top: 30px; padding-bottom: 30px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n              <div class=\"col-xs-12 col-lg-4\">\n                <p class=\"mbr-section-text text-2 title mbr-editable-content\" code-editable-id=\"54\">PHONE</p>\n                <h3 class=\"mbr-section-title display-3 number mbr-editable-content\" code-editable-id=\"55\">516-671-7254</h3>\n              </div>\n              <div class=\"col-xs-12 col-lg-4\">\n                <p class=\"mbr-section-text text-2 title mbr-editable-content\" code-editable-id=\"56\">EMAIL</p>\n                <h3 class=\"mbr-section-title display-3 number mbr-editable-content\" code-editable-id=\"57\">gph@lgrazioseplumbing.com</h3>\n              </div>\n                \n\n            <div class=\"col-xs-12 col-lg-4\">\n                <p class=\"mbr-section-text text-2 title mbr-editable-content\" code-editable-id=\"58\">ADDRESS</p>\n               <h5 class=\"mbr-section-title display-3 number mbr-editable-content\" code-editable-id=\"59\">447 Forest Ave, Locust Valley, NY 11560</h5>\n          \n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title {\n  font-size: 20px;\n}\n",
+          "_customTemplate": true
         },
         {
           "_styles": {
@@ -971,6 +1106,104 @@
             "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 L. Graziose Plumbing &amp; Heating."
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#1e305f"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#1e305f"
+            },
+            ".link, .dropdown-item": {
+              "color": "#1e305f",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#1e305f"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#1e305f",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#091b4b!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": "1.1",
+            "imageSize": "4",
+            "fontName": {
+              "name": "Raleway",
+              "css": "'Raleway', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            "fontColor": "#1e305f",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\"></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/l-graziose-logo-and-phone-number-496x345.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">L. Graziose Plumbing &amp; Heating</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-15"
         }
       ]
     }
