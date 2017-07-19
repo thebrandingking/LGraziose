@@ -256,21 +256,6 @@
             "timeout": "6",
             "slides": [
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/l-graziose-logo-and-phone-number-496x345.png",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "overlay": false,
-                "overlayOpacity": "0.1",
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "L. GRAZIOSE<br>PLUMMING &amp; HEATING",
-                "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">For Mac</a>"
-              },
-              {
                 "active": true,
                 "image": "@PROJECT_PATH@/assets/images/sink-2-2000x1125.jpg",
                 "playVideo": false,
